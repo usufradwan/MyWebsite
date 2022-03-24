@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Setting box -->
+    <div class="sett-box">
+        <i class="fa fa-circle-o-notch circle" aria-hidden="true"></i>
+        <i id="reset" class="fa fa-refresh circle" aria-hidden="true"></i>
+        <div class="boxx">
+            <div class="sett-cont">
+                <i class="fa fa-circle active" data-color="#FF9800" data-shadow="#ff980021" aria-hidden="true"></i>
+                <i class="fa fa-circle" data-color="#6E5ED6" data-shadow="#4444f24d" aria-hidden="true"></i>
+                <i class="fa fa-circle" data-color="#26BDAD" data-shadow="#26bdad45" aria-hidden="true"></i>
+            </div>
+            <div class="back-color">
+                <h4>Choose Background ?</h4>
+                <span class="yes" data-backg="yes">Yes</span>
+                <span class="no active" data-backg="no">Stop</span>
+            </div>
+            <div class="back-color set-bullets">
+                <h4>Show Bullets</h4>
+                <span class="yes active" data-bullet="show">Show</span>
+                <span class="no" data-bullet="hidden">Hiden</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bullets Box -->
+    <div class="nav-bullets">
+        <div class="bullet active" data-section=".landing-page">
+            <div class="tooltip">Home</div>
+        </div>
+        <div class="bullet" data-section=".about">
+            <div class="tooltip">About Me</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Portfolio</div>
+        </div>
+        <div class="bullet" data-section=".mywork">
+            <div class="tooltip">Work</div>
+        </div>
+    </div>
+
+    <!-- Header Page // Landing Page // 1920*1080 -->
+    <section id="home" class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav>
+                <div class="logo">RadWan</div>
+                <div class="ul-nav">
+                    <a class="active" href="#" data-section=".landing-page">Home</a>
+                    <a href="#" data-section=".about">About Me</a>
+                    <a href="#" data-section=".timeline">Portfolio</a>
+                    <a href="#" data-section=".mywork">Work</a>
+                </div>
+                </nav>
+                <header>
+                    <h1>I'm <span>usuf Radwan</span> <br> 
+                        Web Developer
+                    </h1>
+                    <p>Freelance Web Developer & Developer based in Galway Experienced <br> in designing & developing using Wordpress and php.</p>
+                </header>
+        </div>
+    </section>
+
+    <!-- About ME -->
+    <div class="container">
+        <section id="about" class="about margin-TopAndBottom">
+            <div class="img-profile">
+                <img src="img/me.png" alt="Profile" width="200px" height="200px">
+            </div>
+            <div class="alevatore">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti iusto dolorum maxime dignissimos, enim iure qui modi, consequuntur necessitatibus ipsa! Ipsam, delectus eos aperiam assumenda est eum quod cum. </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Skills -->
+    <section id="skills" class="skills margin-TopAndBottom">
+        <div class="container">
+            <h1 class="headElement">My Skills</h1>
+            <div class="dev-progress">
+                <label>HTML 5</label>
+                <div class="progr first">
+                    <span data-progress="80%">80%</span>
+                </div>
+                <label>CSS 3</label>
+                <div class="progr second">
+                    <span data-progress="65%">65%</span>
+                </div>
+                <label>JAVASCRIPT</label>
+                <div class="progr third">
+                    <span data-progress="45%">45%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section id="timeline" class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>FWD Challange</h3>
+                        <p>Learn HTML, CSS and Wordpress. knowledge about Freelancer Work and  How Create Profile on Website Freelancer.</p>
+                        <a href="https://s3-us-west-2.amazonaws.com/udacity-printer/production/certificates/ae74592d-f0b3-40a0-a3e8-88d52d1e4af0.pdf" target="_blank" rel="noopener noreferrer">Certificate</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>FWD Challange Project</h3>
+                        <p>Used my learn To Create Project By html, Css and Wordpress and used plugins wordpress</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="year">2022</div>
+                <div class="right">
+                    <div class="content">
+                        <h3>FWD professional</h3>
+                        <p>Learn JavaScript, DOM and BOM. Learn About Agile How thing mindset. knowledge about Freelancer Work and  How Manage Projrct Freelancer.</p>
+                        <a href="https://confirm.udacity.com/NHJZ9JLT" target="_blank" rel="noopener noreferrer">Certificate</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>FWD professional Project</h3>
+                        <p>Create Three Projects. First used JavaScript To Scroll On Section Click on. Second used API To Calculate Weather in US. Third used Step To Provide Job on Website Freelance and How Manage Project And Calculate Salary</p>
+                        <a href="#" target="_blank" rel="noopener noreferrer">GitHub Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <!-- My Work -->
+    <section id="mywork" class="mywork margin-TopAndBottom">
+        <div class="container">
+            <h1 class="headElement">My Work</h1>
+            <div class="image-box">
+                <img src="img/5.jpg" alt="https://usufsamer-1.netlify.app/">
+                <img src="img/6.png" alt="https://usufsamer-2.netlify.app/">
+                <img src="img/7.jpg" alt="https://usufsamer-3.netlify.app/">
+                <img src="img/8.jpg" alt="https://usufsamer-4.netlify.app/">
+                <img src="img/9.jpg" alt="https://usufsamer-5.netlify.app/">
+            </div>
+        </div>
+    </section>
+
+
+    <script src="JS/code.js"></script>
+</body>
+</html>
