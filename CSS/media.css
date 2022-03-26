@@ -1,0 +1,27 @@
+/* Small Devices ==>> Landscape Phones */
+@media (min-width: 576px) {
+    .contaner {
+        max-width: 540px;
+    }
+}
+
+/* Medium Devices ==> Tabliets */
+@media (min-width: 768px) {
+    .contaner {
+        max-width: 720px;
+    }
+}
+
+/* Laptop Screen */
+@media (min-width: 992px) {
+    .contaner {
+        max-width: 960px;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 1200px) {
+    .contaner {
+        max-width: 1140px;
+    }
+}

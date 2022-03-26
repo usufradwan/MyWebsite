@@ -118,7 +118,7 @@ body {
 .nav-bullets {
     position: fixed;
     right: 0;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     width: 40px;
     z-index: 1000000; 
