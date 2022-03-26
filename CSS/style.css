@@ -13,7 +13,7 @@ body {
     color: #333;
 }
 .container {
-    width: 1170px;
+    /* width: 1170px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
@@ -552,6 +552,20 @@ body {
     color: #FFF;
     cursor: pointer;
 }
+.contact .container .footer {
+    margin-left: 34%;
+    margin-top: 80px;
+}
+.contact .container .footer i {
+    margin-right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    color: var(--main-color);
+}
+.contact .container .footer i.fa-whatsapp:hover::before {
+    content: "+201014884138";
+}
+
 
 
 /* Framework */
